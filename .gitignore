@@ -1,0 +1,19 @@
+# Large data files
+*.csv
+code/
+
+# Cache files
+.cache/
+__pycache__/
+
+# VS Code server
+.vscode-server/
+
+# Python virtual environment
+. venv/
+venv/
+env/
+
+*.csv
+bfg-1.14.0.jar
+. ipynb_checkpoints/
