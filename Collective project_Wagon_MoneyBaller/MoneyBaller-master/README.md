@@ -13,4 +13,4 @@ Thanks to our ☁️ Cloud computing models we created model and proposed 🆕 I
 ⚡ Fun fact: Let's put a name to find similar players to your favorite one ? Same caracteristic, however what about the value ? Is it the same ?
 💡 Clic on the green button and reveal the right value we found.
 💬 You greedy ! You want to know more ? Define yourself new skills to find more options
-
+tala

@@ -1,0 +1,20 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
+df=pd.read_csv('Exam_Score_Prediction.csv')
+
+numeric_cols = df.select_dtypes(include=[np.number]).columns
+X = df[numeric_cols]
+X = X.fillna(X.mean())
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+pca = PCA(n_components=None, random_state=42)
+pca.fit(X_scaled)
+print(pca.explained_variance_ratio_)

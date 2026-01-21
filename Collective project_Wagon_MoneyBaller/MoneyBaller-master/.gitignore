@@ -6,7 +6,8 @@
 .python-version
 *.pyc
 **/build
-
+# Google studio
+GOOGLE_API_KEY=AIzaSyDxBG7uiwzVfSAGRSqn4FGqsO22qge87gY
 # Ignore these macos generated files
 .DS_Store
 
